@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sushi Stick | Banderillas y eventos en Acapulco</title>
+<meta name="description" content="Sushi Stick Acapulco. Conoce nuestro menú, pide a domicilio o agenda tu evento.">
+<meta name="theme-color" content="#0a0805">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- ============================================================
+     NAVBAR FIJA CON BOTÓN HAMBURGUESA
+============================================================ -->
+<nav class="navbar" id="navbar">
+    <div class="nav-inner">
+        <a href="#inicio" class="nav-brand">
+            <img src="img/logo.png" alt="Sushi Stick">
+            Sushi <span>Stick</span>
+        </a>
+
+        <!-- BOTÓN HAMBURGUESA -->
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- LISTA DE ENLACES -->
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#pedido">Pedido a domicilio</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#redes">Redes</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ============================================================
+     HERO / INICIO
+============================================================ -->
+<header class="hero" id="inicio">
+
+    <div class="banner-fondo">
+        <img src="img/banner1.jpg" alt="" aria-hidden="true">
+    </div>
+
+    <div class="container">
+        <div class="bloque-interior">
+
+            <img src="img/logo.png" alt="Logo Sushi Stick" class="logo">
+
+            <h1>Sushi <span>Stick</span></h1>
+
+            <p class="subtitulo">Banderillas y mucho más · Acapulco, Guerrero</p>
+
+            <div class="linea-decorativa"></div>
+
+            <p class="hero-descripcion">
+                ¡El antojo que estabas buscando!
+                Disfruta nuestras deliciosas opciones y comparte
+                el sabor de Sushi Stick.
+            </p>
+
+            <section class="redes-inicio" id="redes-inicio">
+                <h2>Encuéntranos en redes</h2>
+                <p>Síguenos, conoce nuestras novedades y descubre nuestro menú.</p>
+
+                <div class="redes-grid">
+                    <a class="red-social instagram"
+                       href="https://www.instagram.com/sushi_stick_acapulco?psln=djNnYXVsOGV5OWRn&utm_source=qr"
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i><span>Instagram</span>
+                    </a>
+
+                    <a class="red-social tiktok"
+                       href="https://www.tiktok.com/@oscargonzalez8532?_r=1&_t=ZS-9B3KBQRV1qq"
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-tiktok"></i><span>TikTok</span>
+                    </a>
+
+                    <a class="red-social facebook"
+                       href="https://www.facebook.com/profile.php?id=61594818734639"
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i><span>Facebook</span>
+                    </a>
+
+                    <a class="red-social whatsapp"
+                       href="https://wa.me/527442180260"
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+                    </a>
+
+                    <a class="red-social ubicacion"
+                       href="https://maps.app.goo.gl/nwUKGNKV3YbAjwik6"
+                       target="_blank" rel="noopener">
+                        <i class="fas fa-location-dot"></i><span>Ubicación</span>
+                    </a>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</header>
+
+
+<main class="container">
+
+    <!-- ============================================================
+         MENÚ — Fondo 1 (negro)
+    ============================================================ -->
+    <section class="seccion" id="menu">
+        <div class="banner-fondo">
+            <img src="img/banner1.jpg" alt="" aria-hidden="true">
+        </div>
+
+        <div class="bloque-interior">
+            <div class="titulo-seccion">
+                <h2>Nuestro <span>menú</span></h2>
+                <p>DESCUBRE TODO LO QUE TENEMOS PARA TI</p>
+                <div class="linea-decorativa"></div>
+            </div>
+
+            <div class="imagen-contenedor">
+                <p class="imagen-descripcion">Nuestro menú completo, con todas las opciones que tenemos para ti.</p>
+                <figure class="imagen-item" data-src="img/menu1.jpg">
+                    <img src="img/menu1.jpg" alt="Menú Sushi Stick" width="1448" height="1086" loading="lazy">
+                </figure>
+            </div>
+
+            <div class="ordenar-principal">
+                <a class="btn-dm"
+                   href="https://wa.me/527442180260?text=Hola%20Sushi%20Stick,%20quiero%20consultar%20el%20menu."
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> CONSULTAR Y ORDENAR
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         PEDIDO A DOMICILIO — Fondo 2 (dorado oscuro)
+    ============================================================ -->
+    <section class="seccion-ubicacion seccion-alterna" id="pedido">
+        <div class="banner-fondo">
+            <img src="img/banner2.jpg" alt="" aria-hidden="true">
+        </div>
+
+        <div class="bloque-interior">
+            <h2>Pedido a <span>domicilio</span></h2>
+            <p>DISFRUTA SUSHI STICK HASTA LA PUERTA DE TU CASA</p>
+
+            <article class="ubicacion-info">
+                <h3><i class="fas fa-truck-fast"></i> Zonas de entrega</h3>
+
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>La Marquesa, Las Garzas, Joyas del Marqués, Gaviotas y Plaza Patio.</span>
+                </p>
+
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Entradas de Homex, Entrada de Costa Dorada y Entrada de Real del Palmar.</span>
+                </p>
+
+                <p>
+                    <i class="fas fa-shopping-bag"></i>
+                    <span><strong>Pedido mínimo:</strong> 2 banderillas.</span>
+                </p>
+
+                <p>
+                    <i class="fas fa-clock"></i>
+                    <span><strong>Horario de entregas:</strong><br>4:00 PM a 10:00 PM.</span>
+                </p>
+
+                <div class="ordenar-principal">
+                    <a class="btn-dm"
+                       href="https://wa.me/527442180260?text=Hola%20Sushi%20Stick,%20quiero%20hacer%20un%20pedido%20a%20domicilio."
+                       target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> PEDIR A DOMICILIO
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         EVENTOS — Fondo 1 (negro)
+    ============================================================ -->
+    <section class="seccion eventos" id="eventos">
+        <div class="banner-fondo">
+            <img src="img/banner1.jpg" alt="" aria-hidden="true">
+        </div>
+
+        <div class="bloque-interior">
+            <div class="titulo-seccion">
+                <h2>¡Agenda tu <span>evento!</span></h2>
+                <p>HAZ DE TU CELEBRACIÓN UN MOMENTO ESPECIAL</p>
+                <div class="linea-decorativa"></div>
+            </div>
+
+            <p class="evento-descripcion">
+                ¿Tienes una fiesta, cumpleaños o reunión especial?
+                En Sushi Stick puedes agendar nuestros servicios
+                para tus eventos.
+            </p>
+
+            <div class="imagenes-evento-grid">
+                <div class="imagen-contenedor">
+                    <p class="imagen-descripcion">Llevamos el sabor de Sushi Stick a tu celebración.</p>
+                    <figure class="imagen-item" data-src="img/eventos.jpg">
+                        <img src="img/eventos.jpg" alt="Servicio de Sushi Stick para eventos" width="1254" height="1254" loading="lazy">
+                    </figure>
+                </div>
+
+                <div class="imagen-contenedor">
+                    <p class="imagen-descripcion">
+                        Consulta nuestros paquetes y
+                        <span class="palabra-precios">precios</span>
+                        para eventos.
+                    </p>
+                    <figure class="imagen-item" data-src="img/precioseventos.jpg">
+                        <img src="img/precioseventos.jpg" alt="Precios para eventos Sushi Stick" width="1024" height="1024" loading="lazy">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="ordenar-principal">
+                <a class="btn-dm"
+                   href="https://wa.me/527442180260?text=Hola%20Sushi%20Stick,%20me%20gustaria%20informacion%20para%20agendar%20un%20evento."
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> AGENDAR UN EVENTO
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         PROMOCIONES — Fondo 2 (dorado oscuro)
+    ============================================================ -->
+    <section class="seccion seccion-alterna" id="promociones">
+        <div class="banner-fondo">
+            <img src="img/banner2.jpg" alt="" aria-hidden="true">
+        </div>
+
+        <div class="bloque-interior">
+            <div class="titulo-seccion">
+                <h2>Nuestras <span>promociones</span></h2>
+                <p>APROVECHA NUESTRAS OFERTAS ESPECIALES</p>
+                <div class="linea-decorativa"></div>
+            </div>
+
+            <div class="imagen-contenedor">
+                <p class="imagen-descripcion promo-descripcion">Aprovecha nuestras promociones especiales por tiempo limitado.</p>
+                <figure class="imagen-item" data-src="img/promocion1.jpg">
+                    <img src="img/promocion1.jpg" alt="Promoción Sushi Stick" width="1199" height="1312" loading="lazy">
+                </figure>
+            </div>
+
+            <div class="ordenar-principal">
+                <a class="btn-dm"
+                   href="https://wa.me/527442180260?text=Hola%20Sushi%20Stick,%20quiero%20aprovechar%20una%20promocion."
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> APROVECHAR PROMO
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         UBICACIÓN / PUNTO DE VENTA — Fondo 1 (negro)
+    ============================================================ -->
+    <section class="seccion punto-venta" id="ubicacion">
+        <div class="banner-fondo">
+            <img src="img/banner3.jpg" alt="" aria-hidden="true">
+        </div>
+
+        <div class="bloque-interior">
+            <div class="titulo-seccion">
+                <h2>Visita nuestro <span>punto de venta</span></h2>
+                <p>VEN Y DISFRUTA SUSHI STICK</p>
+                <div class="linea-decorativa"></div>
+            </div>
+
+            <article class="ubicacion-info ubicacion-grid">
+                <div class="info-bloque">
+                    <h3><i class="fas fa-store"></i> Información</h3>
+
+                    <p>
+                        <i class="fas fa-clock"></i>
+                        <span>
+                            <strong>Horario de atención:</strong><br>
+                            Jueves a domingo.<br>
+                            6:00 PM a 10:00 PM.
+                        </span>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Acapulco, Guerrero.</span>
+                    </p>
+
+                    <a class="btn-ubicacion"
+                       href="https://maps.app.goo.gl/nwUKGNKV3YbAjwik6"
+                       target="_blank" rel="noopener">
+                        <i class="fas fa-map-marked-alt"></i> CÓMO LLEGAR
+                    </a>
+                </div>
+
+                <div class="mapa">
+                    <iframe
+                        src="https://maps.google.com/maps?q=16.894639,-99.811611&z=16&output=embed"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicación Sushi Stick en Acapulco">
+                    </iframe>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         REDES — Fondo 2 (dorado oscuro)
+    ============================================================ -->
+    <section class="seccion seccion-alterna" id="redes">
+        <div class="banner-fondo">
+            <img src="img/banner1.jpg" alt="" aria-hidden="true">
+        </div>
+
+        <div class="bloque-interior">
+            <div class="titulo-seccion">
+                <h2>Síguenos en <span>redes</span></h2>
+                <p>CONECTA CON NOSOTROS Y MIRA MÁS CONTENIDO</p>
+                <div class="linea-decorativa"></div>
+            </div>
+
+            <div class="redes-grid">
+                <a class="red-social instagram"
+                   href="https://www.instagram.com/sushi_stick_acapulco?psln=djNnYXVsOGV5OWRn&utm_source=qr"
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-instagram"></i><span>Instagram</span>
+                </a>
+
+                <a class="red-social tiktok"
+                   href="https://www.tiktok.com/@oscargonzalez8532?_r=1&_t=ZS-9B3KBQRV1qq"
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-tiktok"></i><span>TikTok</span>
+                </a>
+
+                <a class="red-social facebook"
+                   href="https://www.facebook.com/profile.php?id=61594818734639"
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-facebook-f"></i><span>Facebook</span>
+                </a>
+
+                <a class="red-social whatsapp"
+                   href="https://wa.me/527442180260"
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+                </a>
+
+                <a class="red-social ubicacion"
+                   href="https://maps.app.goo.gl/nwUKGNKV3YbAjwik6"
+                   target="_blank" rel="noopener">
+                    <i class="fas fa-location-dot"></i><span>Ubicación</span>
+                </a>
+            </div>
+
+            <!-- BANNER FINAL -->
+            <section class="banner-final">
+                <div class="banner-fondo">
+                    <img src="img/banner2.jpg" alt="" aria-hidden="true">
+                </div>
+
+                <h2>¿Ya se te antojó <span>Sushi Stick?</span></h2>
+
+                <p>Haz tu pedido o agenda tu próximo evento con nosotros.</p>
+
+                <a class="btn-dm"
+                   href="https://wa.me/527442180260?text=Hola%20Sushi%20Stick,%20quiero%20mas%20informacion."
+                   target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> CONTACTAR POR WHATSAPP
+                </a>
+            </section>
+        </div>
+    </section>
+
+</main>
+
+
+<!-- WHATSAPP FLOTANTE -->
+<a class="wa-flotante"
+   href="https://wa.me/527442180260"
+   target="_blank" rel="noopener"
+   aria-label="Contactar Sushi Stick por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+    <span class="cerrar" id="cerrarLightbox" aria-label="Cerrar">&times;</span>
+    <img id="imgLightbox" src="" alt="Imagen ampliada">
+</div>
+
+
+<footer>
+    <p>© 2026 Sushi Stick. Todos los derechos reservados. Elaborado por Xolo Tech.</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
